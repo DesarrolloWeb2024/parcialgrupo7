@@ -1,12 +1,20 @@
 <!-- Formulario de contacto -->
 <!-- Falta agregar datos como apellido y un nro de telefono al formulario --> 
  <section id="contacto" class="contacto">
-    <h2>Contacto</h2>
-    <form action="post" class="contacto-form">
-      <!-- Se espera que los alumnos completen los campos del formulario -->
-      <input type="text" name="nombre" placeholder="Nombre" required>
-      <input type="email" name="email" placeholder="Email" required>
-      <textarea name="mensaje" placeholder="Mensaje" required></textarea>
-      <button type="submit">Enviar</button>
-    </form>
+  <form>
+    <h2> Contacto </h2>
+    <label>Nombre y apellido:</label>
+    <input type="text" placeholder="Nombre y apellido">
+    <br>
+    <label>Teléfono:</label>
+    <input type="number" placeholder="1127874439">
+    <br>
+    <label>Email:</label>
+    <input type="email" placeholder="nicolasmedina@hotmail.com">
+    <br>
+    <label>Mensaje:</label>
+    <textarea cols="20" rows="10"></textarea>
+    <br>
+    <button type="submit">Enviar</button>
+</form>
   </section>
