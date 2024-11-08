@@ -1,13 +1,13 @@
 /* Header */
 .header {
-	background-color: black;
-	color: white;
-	padding: 1em;
+	background-color: rgb(19, 128, 46);
+	color: rgb(156, 136, 47);
+    padding: 1em;
 	text-align: center;
   }
   
   .header nav ul {
-	list-style: none;
+	list-style: impact;
 	padding: 0;
   }
   

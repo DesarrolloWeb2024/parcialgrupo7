@@ -1,7 +1,7 @@
   /* Footer */
   .footer {
-	background-color: black;
-	color: white;
+	background-color: rgb(19, 128, 46);
+	color: rgb(156, 136, 47);
 	text-align: center;
 	padding: 1em;
 	position: fixed;
@@ -9,7 +9,7 @@
 	width: 100%;
   }
   .instagram-icon {
-	color: white;
+	color: red;
     fill: white; /* Blanco por defecto */
     transition: fill 0.3s ease;
 }
